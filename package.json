@@ -1,0 +1,31 @@
+{
+  "name": "welcome-bot",
+  "version": "1.0.0",
+  "description": "A Single Guild Welcome Bot Made with ♥ By Ahad#3257",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahad#3257",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.8.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CruelDev69/welcome-bot.git"
+  },
+  "keywords": [
+    "welcome-bot",
+    "discord-welcome-bot",
+    "welcomer",
+    "discord.js",
+    "node.js",
+    "github"
+  ],
+  "bugs": {
+    "url": "https://github.com/CruelDev69/welcome-bot/issues"
+  },
+  "homepage": "https://github.com/CruelDev69/welcome-bot#readme"
+}
