@@ -6,8 +6,9 @@ const selfRoles = ""; // Self Roles ChannelID
 module.exports = (client) => {
 client.on('guildMemberAdd', (member) => {
   const server_name = member.guild.name; // Server Name
-  const server_icon = member.user.displayAvatarURL({dynamic: true, size: 512}); // Server Icon
+  const server_icon = member.guild.iconURL({ dynamic: true, size: 512 }); // Server Icon
   const user = member; // Mentions the Member
+  const user_avatar = member.user.displayAvatarURL({dynamic: true, size: 512}); // User's Avatar
   const username = member.user.username; // Shows Member's Username
   const tag = member.user.tag; // Shows Member's Username and Tag
 
@@ -15,7 +16,8 @@ client.on('guildMemberAdd', (member) => {
   const embed = new MessageEmbed()
   .setColor("RANDOM")
   .setTitle(`Welcome to ${server_name}`)
-  .setThumbnail(server_icon)
+  .setThumbnail(user_avatar)
+  .setImage(server_icon)
   .setDescription(`Hi ${user} Welcome To Our Server **__${server_name}__**\nMust Follow ${ruleId}\nCheck Our Announcements <#>\nTake Some Roles From ${selfRoles}`)
   .setFooter({
     text: `${server_name} | Bot by Ahad#3257`,
