@@ -42,5 +42,5 @@ Skidding this code is not allowed if you see anyone taking credits of this scrip
 # Discord: Ahad#3257
 If you liked this music bot please don't forget to give it a star it would mean a lot.
 ***
-[![Ahad](https://media.discordapp.net/attachments/914513217659756585/981694670612623360/unknown.png)](https://www.itscruel.cf)
+[![Ahad](https://media.discordapp.net/attachments/840846571326275609/995180079623700522/DEE8C6CD-F31C-4CB2-B852-EBF7FF8BF373.jpg)](https://www.itscruel.cf)
 ***
